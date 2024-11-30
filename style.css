@@ -1,0 +1,72 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  background-color: rgb(201, 225, 235);
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.container {
+  height: auto;
+  width: 100vw;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.content .heading {
+  text-transform: uppercase;
+  color: rgb(23, 77, 99);
+  text-align: center;
+}
+.sub-heading {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.sub-heading label {
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: rgb(5, 89, 122);
+}
+.sub-heading input {
+  width: 70px;
+  height: 30px;
+  font-size: 20px;
+  padding: 2px;
+  text-align: center;
+  color: rgb(6, 69, 94);
+}
+.sub-heading button {
+  width: 90px;
+  height: 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 3px;
+  background-color: rgb(47, 158, 202);
+  color: rgb(231, 239, 241);
+  border: 2px solid rgb(19, 66, 85);
+  cursor: pointer;
+  &:hover {
+    background: transparent;
+    color: black;
+  }
+}
+.output-para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 90%;
+  width: 100%;
+  text-align: center;
+  color: rgb(9, 50, 66);
+}
